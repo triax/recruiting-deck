@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background: #1a1a1a;
+}
+.main {
+  flex: 1;
+  padding: 20pt 30pt 45pt 30pt;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  margin-bottom: 15pt;
+}
+h1 {
+  color: #ffffff;
+  font-size: 24pt;
+  margin: 0 0 5pt 0;
+  font-weight: bold;
+}
+.subtitle {
+  color: #D4AF37;
+  font-size: 11pt;
+  margin: 0;
+}
+.content-area {
+  display: flex;
+  flex: 1;
+  gap: 20pt;
+}
+.bowl-card {
+  flex: 1;
+  background: #2a2a2a;
+  border-radius: 6pt;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.bowl-image {
+  height: 120pt;
+  background: #444444;
+  overflow: hidden;
+}
+.bowl-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bowl-content {
+  padding: 12pt;
+  flex: 1;
+}
+.bowl-badge {
+  display: inline-block;
+  background: #8B2332;
+  border-radius: 8pt;
+  padding: 2pt 8pt;
+  margin-bottom: 8pt;
+}
+.bowl-badge p {
+  color: #ffffff;
+  font-size: 8pt;
+  margin: 0;
+}
+.bowl-name {
+  color: #D4AF37;
+  font-size: 16pt;
+  margin: 0 0 6pt 0;
+  font-weight: bold;
+}
+.bowl-desc {
+  color: #cccccc;
+  font-size: 9pt;
+  margin: 0 0 8pt 0;
+  line-height: 1.3;
+}
+.bowl-highlight {
+  border-left: 3pt solid #D4AF37;
+  padding: 6pt 10pt;
+}
+.bowl-highlight p {
+  color: #D4AF37;
+  font-size: 9pt;
+  margin: 0;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <h1>BOWL GAMES 2026</h1>
+    <p class="subtitle">TRIAXならではの国際交流と遠征イベント</p>
+  </div>
+  <div class="content-area">
+    <div class="bowl-card">
+      <div class="bowl-image"><img src="../assets/images/DSC04283.jpg"></div>
+      <div class="bowl-content">
+        <div class="bowl-badge"><p>2026.4</p></div>
+        <p class="bowl-name">AZTECA BOWL</p>
+        <p class="bowl-desc">メキシコ代表チームとの国際親善試合。貴重な国際経験を積める特別なイベント。</p>
+        <div class="bowl-highlight">
+          <p>自費負担ゼロで参加可能</p>
+        </div>
+      </div>
+    </div>
+    <div class="bowl-card">
+      <div class="bowl-image"><img src="../assets/images/DSC03675.jpg"></div>
+      <div class="bowl-content">
+        <div class="bowl-badge"><p>2026.6-7</p></div>
+        <p class="bowl-name">SHURI CASTLE BOWL</p>
+        <p class="bowl-desc">沖縄での親善試合。アメフトと観光を同時に楽しめる夏の恒例イベント。</p>
+        <div class="bowl-highlight">
+          <p>旅費無料を調整中</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

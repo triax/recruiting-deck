@@ -1,0 +1,14 @@
+{
+  "env": {
+    "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "true",
+    "NODE_PATH": "./node_modules"
+  },
+  "permissions": {
+    "allow": [
+      "Skill(document-skills:pptx)",
+      "Bash(pnpm run build:*)",
+      "Bash(pnpm install:*)",
+      "Bash(node workspace/convert.js:*)"
+    ]
+  }
+}

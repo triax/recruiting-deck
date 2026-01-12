@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background: #8B2332;
+}
+.main {
+  flex: 1;
+  padding: 20pt 30pt 45pt 30pt;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  margin-bottom: 10pt;
+}
+h1 {
+  color: #ffffff;
+  font-size: 22pt;
+  margin: 0 0 3pt 0;
+  font-weight: bold;
+}
+.subtitle {
+  color: #D4AF37;
+  font-size: 12pt;
+  margin: 0;
+  font-weight: bold;
+}
+.content-area {
+  display: flex;
+  gap: 15pt;
+}
+.left-content {
+  flex: 1;
+}
+.concept-box {
+  display: flex;
+  gap: 10pt;
+  margin-bottom: 10pt;
+}
+.concept-item {
+  flex: 1;
+  background: rgba(255,255,255,0.15);
+  border-radius: 5pt;
+  padding: 8pt;
+  text-align: center;
+}
+.concept-title {
+  color: #D4AF37;
+  font-size: 13pt;
+  margin: 0 0 4pt 0;
+  font-weight: bold;
+}
+.concept-desc {
+  color: #ffffff;
+  font-size: 8pt;
+  margin: 0;
+  line-height: 1.2;
+}
+.examples {
+  background: rgba(255,255,255,0.1);
+  border-radius: 5pt;
+  padding: 10pt;
+}
+.example-title {
+  color: #D4AF37;
+  font-size: 9pt;
+  margin: 0 0 6pt 0;
+  font-weight: bold;
+}
+.example-list {
+  margin: 0;
+  padding: 0 0 0 12pt;
+}
+.example-list li {
+  color: #ffffff;
+  font-size: 8pt;
+  margin-bottom: 2pt;
+  line-height: 1.2;
+}
+.right-content {
+  width: 200pt;
+  display: flex;
+  flex-direction: column;
+  gap: 6pt;
+}
+.photo {
+  height: 130pt;
+  background: #f0f0f0;
+  border-radius: 5pt;
+  overflow: hidden;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <h1>WHY TRIAX?</h1>
+    <p class="subtitle">LIFE / WORK / PLAY</p>
+  </div>
+  <div class="content-area">
+    <div class="left-content">
+      <div class="concept-box">
+        <div class="concept-item">
+          <p class="concept-title">LIFE</p>
+          <p class="concept-desc">アメフトを通じた<br>永い人間関係の構築</p>
+        </div>
+        <div class="concept-item">
+          <p class="concept-title">WORK</p>
+          <p class="concept-desc">仕事にも活きる<br>チームワークと規律</p>
+        </div>
+        <div class="concept-item">
+          <p class="concept-title">PLAY</p>
+          <p class="concept-desc">本気でアメフトに<br>打ち込める環境</p>
+        </div>
+      </div>
+      <div class="examples">
+        <p class="example-title">TRIAX MEMBERS</p>
+        <ul class="example-list">
+          <li>IT系: 技術検証の場として活用</li>
+          <li>院生: 研究テーマへの応用</li>
+          <li>コンサル: 課題解決手法の実践</li>
+          <li>プライベート: キャンプ、ゴルフ、BBQ</li>
+        </ul>
+      </div>
+    </div>
+    <div class="right-content">
+      <div class="photo"><img src="../assets/images/DSC00038.jpg"></div>
+      <div class="photo"><img src="../assets/images/DSC02926.jpg"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

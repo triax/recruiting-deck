@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background: #1a1a1a;
+}
+.main {
+  flex: 1;
+  padding: 30pt 40pt;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  margin-bottom: 20pt;
+}
+h1 {
+  color: #ffffff;
+  font-size: 26pt;
+  margin: 0 0 5pt 0;
+  font-weight: bold;
+}
+.subtitle {
+  color: #D4AF37;
+  font-size: 12pt;
+  margin: 0;
+}
+.content-area {
+  display: flex;
+  flex: 1;
+  gap: 15pt;
+}
+.position-card {
+  flex: 1;
+  background: #2a2a2a;
+  border-radius: 8pt;
+  padding: 20pt 15pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 4pt solid #8B2332;
+}
+.position-card.highlight {
+  border-top-color: #D4AF37;
+  background: #333333;
+}
+.position-name {
+  color: #D4AF37;
+  font-size: 22pt;
+  margin: 0 0 8pt 0;
+  font-weight: bold;
+}
+.position-full {
+  color: #888888;
+  font-size: 9pt;
+  margin: 0 0 15pt 0;
+  text-transform: uppercase;
+}
+.position-desc {
+  color: #cccccc;
+  font-size: 9pt;
+  margin: 0;
+  line-height: 1.4;
+  flex: 1;
+}
+.urgent-badge {
+  background: #8B2332;
+  border-radius: 10pt;
+  padding: 3pt 8pt;
+  margin-top: 10pt;
+}
+.urgent-badge p {
+  color: #ffffff;
+  font-size: 8pt;
+  margin: 0;
+}
+.footer-note {
+  color: #888888;
+  font-size: 10pt;
+  margin: 20pt 0 0 0;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <h1>WANTED POSITIONS</h1>
+    <p class="subtitle">優勝に向けて、以下のポジションを強化募集中</p>
+  </div>
+  <div class="content-area">
+    <div class="position-card highlight">
+      <p class="position-name">OL</p>
+      <p class="position-full">Offensive Line</p>
+      <p class="position-desc">攻撃の要。<br>QBを守り、<br>RBの道を切り拓く。</p>
+      <div class="urgent-badge"><p>急募</p></div>
+    </div>
+    <div class="position-card highlight">
+      <p class="position-name">LB</p>
+      <p class="position-full">Linebacker</p>
+      <p class="position-desc">守備の司令塔。<br>ランもパスも<br>止める中心選手。</p>
+      <div class="urgent-badge"><p>急募</p></div>
+    </div>
+    <div class="position-card">
+      <p class="position-name">DB</p>
+      <p class="position-full">Defensive Back</p>
+      <p class="position-desc">最後の砦。<br>パスを封じ、<br>ビッグプレーを生む。</p>
+    </div>
+    <div class="position-card">
+      <p class="position-name">K/P</p>
+      <p class="position-full">Kicker / Punter</p>
+      <p class="position-desc">勝敗を分ける<br>スペシャリスト。<br>未経験者も歓迎。</p>
+    </div>
+    <div class="position-card">
+      <p class="position-name">LS</p>
+      <p class="position-full">Long Snapper</p>
+      <p class="position-desc">キックの起点。<br>正確性が<br>チームを支える。</p>
+    </div>
+  </div>
+  <p class="footer-note">上記以外のポジションも随時募集しています</p>
+</div>
+</body>
+</html>
