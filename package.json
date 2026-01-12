@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node workspace/convert.js",
-    "thumbnail": "python /Users/otiai10/.claude/plugins/cache/anthropic-agent-skills/document-skills/00756142ab04/skills/pptx/scripts/thumbnail.py TRIAX_2026_Recruiting.pptx workspace/thumbnails --cols 4"
+    "thumbnail": "uv run workspace/scripts/thumbnail.py TRIAX_2026_Recruiting.pptx workspace/thumbnails --cols 4"
   },
   "keywords": [],
   "author": "Club TRIAX",

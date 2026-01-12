@@ -1,0 +1,12 @@
+[project]
+name = "recruiting-deck"
+version = "1.0.0"
+description = "Club TRIAX 2026 Recruiting Presentation"
+requires-python = ">=3.11"
+dependencies = [
+    "python-pptx>=1.0.0",
+    "pillow>=10.0.0",
+]
+
+[tool.uv]
+dev-dependencies = []

@@ -6,9 +6,15 @@
   "permissions": {
     "allow": [
       "Skill(document-skills:pptx)",
+      "Bash(uv run:*)",
       "Bash(pnpm run build:*)",
       "Bash(pnpm install:*)",
-      "Bash(node workspace/convert.js:*)"
+      "Bash(node workspace/convert.js:*)",
+      "Bash(ls:*)",
+      "Bash(uv sync:*)",
+      "Bash(git -C /Users/otiai10/proj/triax/recruiting-deck commit -m \"$\\(cat <<''EOF''\nrefactor: Replace hardcoded paths with uv-managed Python scripts\n\n- Move thumbnail.py and inventory.py scripts into workspace/scripts/\n- Add pyproject.toml and uv.lock for reproducible Python dependencies\n- Update package.json thumbnail script to use uv run\n- Add .venv to .gitignore\n\nThis removes environment-specific paths and makes the project portable.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /Users/otiai10/proj/triax/recruiting-deck status)",
+      "Bash(git -C /Users/otiai10/proj/triax/recruiting-deck status --short)"
     ]
   }
 }
